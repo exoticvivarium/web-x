@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: black;
+  }
+  
+  /*---------- heading ----------- */
+  .masthead {
+      padding: 15em 0;
+      background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-top: 1em solid #64bcf4;
+  }
+  
+  .masthead-heading {
+    font-size: 6em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    text-shadow: 1.5px 3px 0px #000506;
+    color: #8bf706f1;
+    margin-top: -0.2em;
+  
+  }
+  .masthead-intro {
+    font-size: 2em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    text-align: center;
+    color:#e5e5e5;
+    margin-bottom: 0.1em;
+  }
+  
+  /*---------- section ----------- */
+  .intro,
+  .where-Im-from,
+  .more-about-me {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: left;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .intro > p,
+  .where-Im-from > p,
+  .more-about-me > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  section > h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-top: 30px;
+  }
+  
+  .more-about-me > h2 {
+    font-size: 1.2em;
+    font-family: "Gentium Book Basic";
+    font-weight: bold;
+    color: #64bcf4;
+  }
+  
+  /*---------- footer ----------- */
+  .content-footer {
+    margin-top: 8em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #64bcf4;
+  }
+  
+  .content-footer > p {
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: "Open Sans"
+  }
+  
+  footer > ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  .content-footer a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  @media only screen and (max-width:500px){
+    .masthead {
+      padding: 3em 0;
+    }
+    .masthead-heading {
+      font-size: 3em;
+    }
+    .intro,
+    .where-Im-from,
+    .more-about-me,
+    .content-footer {
+      font-size: 0.5em;
+    }
+  }
